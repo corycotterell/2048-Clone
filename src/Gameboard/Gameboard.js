@@ -1,4 +1,5 @@
 import React from 'react'
+import Scoreboard from '../Scoreboard/Scoreboard.js';
 import './Gameboard.css'
 
 class Gameboard extends React.Component {
@@ -9,6 +10,7 @@ class Gameboard extends React.Component {
         return (
             <body>
                 <h1>Welcome to Cory's 2048 Clone</h1>
+                <Scoreboard/>
                 <div className="empty-space">
                     <div className="grid-container">
                         <div className="tile-item">
