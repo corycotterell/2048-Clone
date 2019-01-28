@@ -1,31 +1,67 @@
 import React from 'react'
 import './Gameboard.css'
 
-class Gameboard extends React.Component{
-    constructor(props){
+class Gameboard extends React.Component {
+    constructor(props) {
         super(props)
     }
-    render (){
-        return(
-        <div className="grid-container">
-            <div className="grid-item">tile</div>
-            <div className="grid-item">tile</div>
-            <div className="grid-item">tile</div>
-            <div className="grid-item">tile</div>
-            <div className="grid-item">tile</div>
-            <div className="grid-item">tile</div>
-            <div className="grid-item">tile</div>
-            <div className="grid-item">tile</div>
-            <div className="grid-item">tile</div>
-            <div className="grid-item">tile</div>
-            <div className="grid-item">tile</div>
-            <div className="grid-item">tile</div>
-            <div className="grid-item">tile</div>
-            <div className="grid-item">tile</div>
-            <div className="grid-item">tile</div>
-            <div className="grid-item">tile</div>
-            
-        </div>
+    render() {
+        return (
+            <body>
+                <h1>Welcome to Cory's 2048 Clone</h1>
+                <div className="empty-space">
+                    <div className="grid-container">
+                        <div className="tile-item">
+                            <div className="number">200</div>
+                        </div>
+                        <div className="tile-item">
+                            <div className="number">200</div>
+                        </div>
+                        <div className="tile-item">
+                            <div className="number">200</div>
+                        </div>
+                        <div className="tile-item">
+                            <div className="number">200</div>
+                        </div>
+                        <div className="tile-item">
+                            <div className="number">200</div>
+                        </div>
+                        <div className="tile-item">
+                            <div className="number">200</div>
+                        </div>
+                        <div className="tile-item">
+                            <div className="number">200</div>
+                        </div>
+                        <div className="tile-item">
+                            <div className="number">200</div>
+                        </div>
+                        <div className="tile-item">
+                            <div className="number">200</div>
+                        </div>
+                        <div className="tile-item">
+                            <div className="number">200</div>
+                        </div>
+                        <div className="tile-item">
+                            <div className="number">200</div>
+                        </div>
+                        <div className="tile-item">
+                            <div className="number">200</div>
+                        </div>
+                        <div className="tile-item">
+                            <div className="number">200</div>
+                        </div>
+                        <div className="tile-item">
+                            <div className="number">200</div>
+                        </div>
+                        <div className="tile-item">
+                            <div className="number">200</div>
+                        </div>
+                        <div className="tile-item">
+                            <div className="number">200</div>
+                        </div> 
+                    </div>
+                </div>
+            </body>
         )
     }
 }
